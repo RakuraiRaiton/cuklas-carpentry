@@ -566,6 +566,7 @@ a:focus {
 
 .contact_section .heading_container {
   margin-bottom: 25px;
+  align-items: center;
 }
 
 .contact_section .heading_container h2 {
