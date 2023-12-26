@@ -13,7 +13,7 @@ $(".work_owl-carousel").owlCarousel({
     autoplay: true,
     loop: true,
     margin: 10,
-    autoHeight: true,
+    autoHeight: false,
     nav: true,
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive: {
