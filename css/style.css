@@ -858,4 +858,10 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+/*owl carrousel centered*/
+.owl-carousel .owl-stage-outer {
+  margin-left: -0.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
