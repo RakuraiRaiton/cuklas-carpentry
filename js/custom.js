@@ -10,7 +10,7 @@ getYear();
 //  course section owl carousel
 
 $(".work_owl-carousel").owlCarousel({
-    autoplay: false,
+    autoplay: true,
     loop: true,
     margin: 10,
     autoHeight: true,
@@ -18,13 +18,19 @@ $(".work_owl-carousel").owlCarousel({
     navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
     responsive: {
         0: {
-            items: 1
+            items: 1,
+            nav: true,
+            loop: false
         },
         576: {
-            items: 2
+            items: 2,
+            nav: true,
+            loop: true
         },
         768: {
-            items: 3
+            items: 3,
+            nav: true,
+            loop: true
         },
         1000: {
             items: 4
